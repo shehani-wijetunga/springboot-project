@@ -1,0 +1,5 @@
+environment:
+endpoints:
+web:
+exposure:
+include: '*'
