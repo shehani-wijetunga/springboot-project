@@ -5,9 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/shehani-wijetunga/spring-cloud-config-store
+          uri: https://github.com/shehani-wijetunga/microservices-config-store
           username: shehani-wijetunga
           password: AZBYcxdw123
           search-paths:
-            - '*service'
+            - 'service-config/*service'
 

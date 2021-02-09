@@ -13,6 +13,9 @@ public class Customer{
     int id;
 
     String firstName;
+    String lastName;
+    String dlNumber;
+    String zipcode;
 
     public int getId() {
         return id;
@@ -54,7 +57,5 @@ public class Customer{
         this.zipcode = zipcode;
     }
 
-    String lastName;
-    String dlNumber;
-    String zipcode;
+
 }
