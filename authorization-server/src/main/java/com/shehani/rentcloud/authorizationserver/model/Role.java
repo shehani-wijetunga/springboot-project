@@ -1,12 +1,13 @@
 package com.shehani.rentcloud.authorizationserver.model;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Entity
 @Table(name = "role")
 
-public class Role {
+public class Role implements Serializable {
     public Integer getId() {
         return id;
     }
