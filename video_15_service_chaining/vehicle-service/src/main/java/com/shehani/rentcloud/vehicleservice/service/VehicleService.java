@@ -1,6 +1,6 @@
 package com.shehani.rentcloud.vehicleservice.service;
 
-import com.shehani.rentcloud.model.Vehicle;
+import com.shehani.rentcloud.model.vehicle.Vehicle;
 
 import java.util.List;
 

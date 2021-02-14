@@ -1,15 +1,16 @@
-package com.shehani.rentcloud.rentservice;
+package com.shehani.rentcloud.customerservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+
 @SpringBootApplication
-@EntityScan(basePackages ="com.shehani.rentcloud.model.rent")
-public class RentServiceApplication {
+@EntityScan(basePackages = "com.shehani.rentcloud.model.customer")
+public class CustomerServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RentServiceApplication.class, args);
+        SpringApplication.run(CustomerServiceApplication.class, args);
     }
 
 }

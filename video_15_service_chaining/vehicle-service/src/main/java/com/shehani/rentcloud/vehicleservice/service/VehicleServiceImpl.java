@@ -1,6 +1,6 @@
 package com.shehani.rentcloud.vehicleservice.service;
 
-import com.shehani.rentcloud.model.Vehicle;
+import com.shehani.rentcloud.model.vehicle.Vehicle;
 import com.shehani.rentcloud.vehicleservice.repository.VehicleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
