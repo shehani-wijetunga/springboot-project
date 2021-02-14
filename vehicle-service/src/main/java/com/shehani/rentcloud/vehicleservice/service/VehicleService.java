@@ -2,9 +2,14 @@ package com.shehani.rentcloud.vehicleservice.service;
 
 import com.shehani.rentcloud.model.Vehicle;
 
+import java.util.List;
+
 
 public interface VehicleService {
-    Vehicle save(Vehicle customer);
+    Vehicle save(Vehicle vehicle);
 
+    Vehicle findById(int id);
+
+    List<Vehicle> findAll();
 
 }

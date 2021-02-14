@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: rent
+  jpa:
+    hibernate:
+      ddl-auto: update
